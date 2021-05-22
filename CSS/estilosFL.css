@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #f9d8d4;
+  color: rgb(167, 158, 158);
+  font-family: "Manjari", sans-serif;
+  background: linear-gradient(-45deg, #52c15bc9, #82d8cd, #eb951598, #c898ff);
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.grid-container {
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.header h1 {
+  height: 90px;
+  background: #000;
+  font-size: 45px;
+  text-align: center;
+  line-height: 120px;
+}
+.main {
+  background: rgb(222, 215, 125);
+  text-align: justify;
+  padding: 20px;
+  border: 1px solid;
+  width: 650px;
+  height: 1256px;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #000;
+}
+.main h2 {
+  color: #ee7752;
+}
+.main h3 {
+  color: #ee7752;
+}
+aside {
+  background: rgb(196, 197, 205);
+  padding: 27px;
+  border: 1px solid;
+  width: 200px;
+  height: 1243px;
+  float: right;
+  margin-top: 5px;
+}
+footer {
+  background: slategray;
+  clear: both;
+  text-align: left;
+  min-width: 0%;
+  color: aliceblue;
+  height: 38px;
+}
